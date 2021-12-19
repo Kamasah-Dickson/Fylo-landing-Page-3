@@ -1,0 +1,30 @@
+// @import '../components/colors';
+
+@mixin border-button{
+    background-color: transparent;
+    padding:$base-padding $base-padding-sm;
+    border:1px solid $pink;
+    outline:none;
+    border-radius:20px;
+    color:$pink;
+    &:hover{
+        cursor: pointer;
+        opacity: 80%;
+    }
+}
+@mixin button{
+    background-color: $pink;
+    padding:$base-padding-sm $base-padding-lg;
+    border:none;
+    outline:none;
+    border-radius:25px;
+    color:$Paleblue-white;
+    font-weight: $h1-weight;
+    font-size:$font-size-sm;
+    margin:$base-margin-lx 0;
+    box-shadow:$button-shadow;
+    &:hover{
+        cursor: pointer;
+        opacity: 80%;
+    }
+}

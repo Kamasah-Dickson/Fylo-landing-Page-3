@@ -1,0 +1,29 @@
+@mixin container{
+    width:90%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+@mixin p-absolute{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+@mixin h1 {
+    color:$Very-Dark-Cyan;
+    margin-bottom: $base-margin-sm;
+    font-weight: $h1-weight;
+}
+
+@mixin p {
+        font-weight: $p-weight;
+        font-size:$font-size-sm;
+        margin-bottom: $base-margin-sm;
+        color:$Very-Dark-Cyan;
+        line-height: 30px;
+    
+}
